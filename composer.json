@@ -1,0 +1,25 @@
+{
+	"name": "markjun/medoo",
+	"type": "framework",
+	"description": "The lightweight PHP database framework to accelerate development(Adapted from catfan/Medoo)",
+	"keywords": ["database", "database library", "lightweight", "PHP framework", "SQL", "MySQL", "MSSQL", "SQLite", "PostgreSQL", "MariaDB", "Oracle"],
+	"homepage": "https://medoo.in",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/markjun/medoo/issues",
+		"source": "https://github.com/markjun/medoo"
+	},
+	"authors": [
+		{"name": "Angel Lai", "email": "angel@catfan.me"},
+		{"name": "mark jun", "email": "178952664@qq.com"},
+	],
+	"require": {
+		"php": ">=5.4",
+		"ext-pdo": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Medoo\\": "/src"
+		}
+	}
+}
