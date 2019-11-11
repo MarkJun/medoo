@@ -11,7 +11,7 @@
 	},
 	"authors": [
 		{"name": "Angel Lai", "email": "angel@catfan.me"},
-		{"name": "mark jun", "email": "178952664@qq.com"},
+		{"name": "mark jun", "email": "178952664@qq.com"}
 	],
 	"require": {
 		"php": ">=5.4",
